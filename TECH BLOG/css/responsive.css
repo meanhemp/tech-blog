@@ -1,0 +1,88 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .hero-content h1 {
+        font-size: 3.5rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .navbar {
+        padding: 15px 0;
+    }
+    
+    .hero-section {
+        padding: 120px 0;
+    }
+    
+    .hero-content {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .hero-section {
+        padding: 150px 0;
+    }
+    
+    .hero-content h1 {
+        font-size: 4rem;
+    }
+    
+    .article-card .card-img-top {
+        height: 220px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+    
+    .hero-content {
+        max-width: 70%;
+    }
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 767.98px) {
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.25rem;
+    }
+    
+    .hero-content p {
+        font-size: 1rem;
+    }
+    
+    .section-title {
+        font-size: 1.75rem;
+    }
+    
+    .team-card img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+/* Very small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    
+    .btn {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+    
+    .contact-info-item {
+        padding: 20px 10px !important;
+    }
+}

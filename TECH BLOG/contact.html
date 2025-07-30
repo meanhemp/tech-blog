@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - TechSphere</title>
+    <!-- Same head content as index.html -->
+</head>
+<body>
+    <!-- Same navigation as index.html -->
+
+    <!-- Contact Hero -->
+    <section class="contact-hero py-5 bg-primary text-white">
+        <div class="container text-center">
+            <h1>Contact Us</h1>
+            <p class="lead">We'd love to hear from you! Reach out with questions, feedback, or partnership inquiries.</p>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card shadow-sm">
+                        <div class="card-body p-5">
+                            <h2 class="text-center mb-4">Send Us a Message</h2>
+                            <form id="contactForm">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Your Name</label>
+                                    <input type="text" class="form-control" id="name" required>
+                                    <div class="invalid-feedback">Please enter your name.</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                    <div class="invalid-feedback">Please enter a valid email address.</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="subject" class="form-label">Subject</label>
+                                    <select class="form-select" id="subject">
+                                        <option value="general">General Inquiry</option>
+                                        <option value="feedback">Feedback</option>
+                                        <option value="partnership">Partnership</option>
+                                        <option value="advertising">Advertising</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control" id="message" rows="5" required></textarea>
+                                    <div class="invalid-feedback">Please enter your message.</div>
+                                </div>
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Info -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0 text-center">
+                    <div class="contact-info-item p-4 h-100">
+                        <i class="fas fa-map-marker-alt fa-2x text-primary mb-3"></i>
+                        <h4>Our Location</h4>
+                        <p>123 Tech Street<br>San Francisco, CA 94107</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0 text-center">
+                    <div class="contact-info-item p-4 h-100">
+                        <i class="fas fa-phone-alt fa-2x text-primary mb-3"></i>
+                        <h4>Call Us</h4>
+                        <p>+1 (555) 123-4567<br>Mon-Fri, 9am-5pm PST</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="contact-info-item p-4 h-100">
+                        <i class="fas fa-envelope fa-2x text-primary mb-3"></i>
+                        <h4>Email Us</h4>
+                        <p>info@techsphere.com<br>support@techsphere.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Same footer as index.html -->
+</body>
+</html>
